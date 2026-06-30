@@ -265,8 +265,8 @@ True
 
  """
 # 1) Arithmetic operators
-a = 11
-b = 2
+a = 5
+b = 6
 
 print("a + b =", a + b)   # 13
 print("a - b =", a - b)   # 9
