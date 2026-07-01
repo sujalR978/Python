@@ -29,3 +29,8 @@ Hike Percentage (applicable on current salary)
 In case of invalid job level, consider hike percentage to be 0.
 
 Given the current salary and job level, write a Python program to find and display the new salary of an employee"""
+
+
+year = int(input("Enter year : "))
+if ((year % 4 == 0 and year % 100 != 0) or year % 400 == 0) :
+    print ("year is leap year")
