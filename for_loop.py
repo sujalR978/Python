@@ -6,3 +6,12 @@ In Python, the for loop allows the loop to run over a specific sequence of value
 
 for number in 1,2,3,4,5:
     print("The current number is ",number)
+
+""" Another variation!
+In Python, there is an easy way to achieve this by using range(x, y, step). It creates a sequence from x to y-1 with a difference of step between each value. """
+
+start=1
+end=10
+step=2
+for number in range (start, end, step):
+    print("The current number is ", number)
