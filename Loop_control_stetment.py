@@ -29,3 +29,12 @@ for passenger in "A","A", "FC", "C", "FA", "SP", "A", "A":
     print("Check for cabin baggage")
 
 
+"""n Python, pass is a null statement which is used to do create empty blocks. When pass is executed, it results in no-operation and the control will move to the next statement applicable. Below example shows how pass can be used to create an empty if block."""
+num=10
+count=0
+while(count <= num):
+    if(count%2 == 0):
+        pass
+    else:
+        print(count)
+    count+=1
