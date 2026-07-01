@@ -33,3 +33,14 @@ number2 = int(input("Enter number : "))
 
 if(number2 % 5 ==0 and number2 % 3 ==0):
     print("Zoom")
+
+
+#Task - 4
+
+
+number3 = int(input("Enter number : "))
+
+if(number3 % 5 ==0 and number3 % 3 ==0):
+    print("Zoom")
+else:
+    print('Invalid')
