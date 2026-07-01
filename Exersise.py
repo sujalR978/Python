@@ -28,3 +28,8 @@ if(number1 % 5 ==0):
 
 #Task - 3
 
+
+number2 = int(input("Enter number : "))
+
+if(number2 % 5 ==0 and number2 % 3 ==0):
+    print("Zoom")
