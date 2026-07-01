@@ -68,4 +68,17 @@ else:
 
 # Task - 4
 
+x = int(input("Enter a number : "))
+
+a = 0
+b = 1
+
+if x <= 0 :
+    print ("Enter possitive number. ")
+elif x == 1 :
+    print(x)
+else:
+    for i in range(x):
+        print(a, end = ' ')
+        a,b = b,a + b
 
