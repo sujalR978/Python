@@ -16,3 +16,15 @@ number = int(input("Enter number : "))
 
 if(number % 3 ==0):
     print("zip")
+
+
+# Task - 2
+
+
+number1 = int(input("Enter number : "))
+
+if(number1 % 5 ==0):
+    print("Zap")
+
+#Task - 3
+
