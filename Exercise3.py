@@ -38,3 +38,13 @@ if ((year % 4 == 0 and year % 100 != 0) or year % 400 == 0) :
 
  # Task - 2
 
+a = int(input("Enter first number : "))
+b = int(input("Enter second number : "))
+c = int(input("Enter third number : "))
+
+if a >= b and a >= c:
+    print("A is grater : ",a)
+elif b >= a and b >= c:
+    print("B is grater : ",b)
+else:
+      print("c is grater : ",c)
