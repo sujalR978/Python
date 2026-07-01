@@ -6,6 +6,8 @@ for number in range(1,7,2):
 print("---------------------------")
 for number in range(5,0,-1):
     print ("The current number is ",number)
+
+    
 """The current number is  1
 The current number is  2
 The current number is  3
