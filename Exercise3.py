@@ -82,3 +82,23 @@ else:
         print(a, end = ' ')
         a,b = b,a + b
 
+# Task - 5
+# Input current salary and job level
+salary = float(input("Enter current salary: "))
+job_level = int(input("Enter job level: "))
+
+# Determine hike percentage
+if job_level == 3:
+    hike = 15
+elif job_level == 4:
+    hike = 7
+elif job_level == 5:
+    hike = 5
+else:
+    hike = 0
+
+# Calculate new salary
+new_salary = salary + (salary * hike / 100)
+
+# Display the new salary
+print("New Salary =", new_salary)
