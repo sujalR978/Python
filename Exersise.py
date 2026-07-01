@@ -9,3 +9,10 @@ Write a Python program that displays a message as follows for a given number:
 
 - If it does not satisfy any of the above given conditions, display 'Invalid'"""
 
+
+# Task - 1
+
+number = int(input("Enter number : "))
+
+if(number % 3 ==0):
+    print("zip")
